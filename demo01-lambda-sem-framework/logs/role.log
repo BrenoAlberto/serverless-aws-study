@@ -1,0 +1,21 @@
+{
+    "Role": {
+        "Path": "/",
+        "RoleName": "lambda-sem-framework",
+        "RoleId": "AROA25LSRJCI3I333EFWP",
+        "Arn": "arn:aws:iam::750248872081:role/lambda-sem-framework",
+        "CreateDate": "2022-05-11T23:43:13+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "lambda.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        }
+    }
+}

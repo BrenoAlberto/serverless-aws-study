@@ -1,0 +1,28 @@
+{
+    "FunctionName": "lambda-sem-framework",
+    "FunctionArn": "arn:aws:lambda:us-east-1:750248872081:function:lambda-sem-framework",
+    "Runtime": "nodejs12.x",
+    "Role": "arn:aws:iam::750248872081:role/lambda-sem-framework",
+    "Handler": "index.handler",
+    "CodeSize": 331,
+    "Description": "",
+    "Timeout": 3,
+    "MemorySize": 128,
+    "LastModified": "2022-05-11T23:48:16.707+0000",
+    "CodeSha256": "frAW+fKRtU5qySE42S/NoI4yTUyr2ujTc1vM8pG/pfQ=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "4322425e-c5c7-49aa-b06e-ca7794da3351",
+    "State": "Pending",
+    "StateReason": "The function is being created.",
+    "StateReasonCode": "Creating",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    }
+}
